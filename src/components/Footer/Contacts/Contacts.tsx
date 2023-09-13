@@ -18,7 +18,7 @@ export const Contacts = () => {
         <div className="contacts__operator-icon-container">
           <img
             className="contacts__icon-img"
-            src="/images/vodafone.png"
+            src="images/vodafone.png"
             alt="vodafone icon"
           />
         </div>
@@ -29,7 +29,7 @@ export const Contacts = () => {
         <div className="contacts__operator-icon-container">
           <img
             className="contacts__icon-img"
-            src="/images/kyivstar.png"
+            src="images/kyivstar.png"
             alt="kyivstar icon"
           />
         </div>

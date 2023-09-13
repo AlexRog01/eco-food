@@ -27,7 +27,7 @@ export const QualityCertificates = () => {
           <div className="quality-certificates__img-container">
             <img
               className="quality-certificates__img"
-              src="/images/certificate1.png"
+              src="images/certificate1.png"
               alt="certifacate1"
             />
           </div>
@@ -35,7 +35,7 @@ export const QualityCertificates = () => {
           <div className="quality-certificates__img-container">
             <img
               className="quality-certificates__img"
-              src="/images/certificate2.png"
+              src="images/certificate2.png"
               alt="certifacate2"
             />
           </div>
@@ -43,7 +43,7 @@ export const QualityCertificates = () => {
           <div className="quality-certificates__img-container">
             <img
               className="quality-certificates__img"
-              src="/images/certificate3.png"
+              src="images/certificate3.png"
               alt="certifacate3"
             />
           </div>

@@ -32,7 +32,7 @@ export const FoodPreparation = () => {
           {!isPlaying && (
             <img
               className="food-preparation__control-btn-icon"
-              src="/images/play.png"
+              src="images/play.png"
               alt="play btn"
             />
           )}
@@ -41,9 +41,9 @@ export const FoodPreparation = () => {
         <video
           className="food-preparation__video"
           ref={videoRef}
-          src="/images/ecoFoodVIdeo.mp4"
+          src="images/ecoFoodVIdeo.mp4"
           controls={isPlaying}
-          poster="/images/videoPoster.jfif"
+          poster="images/videoPoster.jfif"
         >
           Sorry, your browser doesn&apos;t support embedded videos, but don&apos;t worry,
           you can

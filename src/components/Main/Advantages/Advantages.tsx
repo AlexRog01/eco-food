@@ -6,7 +6,7 @@ export const Advantages = () => {
     <section className="advantages">
       <div className="advantages__advantage">
         <div className="advantages__img-container">
-          <img className="advantages__img" src="/images/diamond.png" alt="diamond" />
+          <img className="advantages__img" src="images/diamond.png" alt="diamond" />
         </div>
 
         <p className="advantages__title">Сучасні технології</p>
@@ -22,7 +22,7 @@ export const Advantages = () => {
         <div className="advantages__img-container">
           <img
             className="advantages__img"
-            src="/images/saveWorld.png"
+            src="images/saveWorld.png"
             alt="save world sign"
           />
         </div>
@@ -37,7 +37,7 @@ export const Advantages = () => {
 
       <div className="advantages__advantage">
         <div className="advantages__img-container">
-          <img className="advantages__img" src="/images/quality.svg" alt="quality sign" />
+          <img className="advantages__img" src="images/quality.svg" alt="quality sign" />
         </div>
 
         <p className="advantages__title">Якість</p>

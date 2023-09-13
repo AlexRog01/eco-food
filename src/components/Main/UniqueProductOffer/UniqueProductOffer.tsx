@@ -9,7 +9,7 @@ export const UniqueProductOffer = () => {
       <div className="unique-product-offer__img-container">
         <img
           className="unique-product-offer__img"
-          src="/images/cookies_with_spreads.png"
+          src="images/cookies_with_spreads.png"
           alt="unique product offer"
         />
       </div>
