@@ -10,7 +10,7 @@ export const Specialization = () => {
         <div className="specialization__img-container1">
           <img
             className="specialization__img"
-            src="/images/sprouts_big_quality.jfif"
+            src="images/sprouts_big_quality.jfif"
             alt="green leaves"
           />
         </div>
@@ -18,7 +18,7 @@ export const Specialization = () => {
         <div className="specialization__img-container2">
           <img
             className="specialization__img"
-            src="/images/leavs_big_qality.jfif"
+            src="images/leavs_big_qality.jfif"
             alt="green leaves"
           />
         </div>
