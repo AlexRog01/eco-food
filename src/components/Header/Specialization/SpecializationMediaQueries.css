@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+  .specialization {
+    flex-direction: column;
+    height: 950px;
+  }
+
+  .specialization__photos {
+    margin-right: 0;
+  }
+
+  .specialization__text {
+    margin-top: 30px;
+  }
+
+  .specialization__title {
+    font-size: 5rem;
+  }
+
+  .specialization__btn {
+    margin-top: 50px;
+  }
+}

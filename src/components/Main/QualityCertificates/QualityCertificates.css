@@ -1,0 +1,33 @@
+.quality-certificates {
+  display: flex;
+  gap: 25px;
+}
+
+.quality-certificates__description-container {
+  display: flex;
+  gap: 13.7%;
+}
+
+.quality-certificates__desc {
+  color: var(--general-font-color);
+  font-size: 1.25rem;
+  line-height: 150%;
+  flex-basis: 42.8%;
+}
+
+.quality-certificates__images {
+  display: flex;
+  gap: 6.2%;
+  margin-top: 66px;
+}
+
+.quality-certificates__img-container {
+  width: 229px;
+  height: 323px;
+}
+
+.quality-certificates__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

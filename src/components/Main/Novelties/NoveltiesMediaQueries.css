@@ -1,0 +1,5 @@
+@media (max-width: 520px) {
+  .novelties__swiper > div {
+    position: relative;
+  }
+}

@@ -1,0 +1,45 @@
+.side-nav {
+  background-color: rgb(230, 218, 201);
+  width: 250px;
+  height: 110vh;
+  top: 0;
+  right: -100%;
+  padding-top: var(--header-top-padding);
+  position: fixed;
+  transition: var(--animation-time);
+  z-index: 999;
+
+  padding-top: 50px;
+}
+
+.side-nav__toggle {
+  font-size: var(--icon-font-size);
+  float: right;
+}
+
+.side-nav__items {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.side-nav__link {
+  color: black;
+  font-weight: 600;
+  line-height: 100%;
+  transition: var(--animation-time);
+}
+
+.side-nav__item:first-child {
+  margin-bottom: 20px;
+}
+
+.side-nav__item:last-child {
+  margin-top: 20px;
+}
+
+.side-nav.active {
+  right: 0;
+  transition: var(--animation-time);
+}

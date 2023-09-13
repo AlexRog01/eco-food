@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+  .food-preparation__control-btn {
+    width: 84px;
+    height: 84px;
+  }
+
+  .food-preparation__info {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

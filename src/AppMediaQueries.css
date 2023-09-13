@@ -1,0 +1,5 @@
+@media (max-width: 900px) {
+  .app__main, .app__footer {
+    margin-top: var(--section-top-margin-on-phone);
+  }
+}

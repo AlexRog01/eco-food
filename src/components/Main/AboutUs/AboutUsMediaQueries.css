@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+  .about-us {
+    gap: 70px;
+    flex-direction: column;
+  }
+
+  .about-us__btn {
+    margin-top: 30px;
+  }
+}

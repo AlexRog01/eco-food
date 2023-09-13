@@ -1,0 +1,68 @@
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-track .slick-slide:nth-child(4n+1) .review-card {
+  background: #A2E0DB;
+}
+
+.slick-track .slick-slide:nth-child(4n+2) .review-card {
+  background: #F5DFC1;
+}
+
+.slick-track .slick-slide:nth-child(4n+3) .review-card {
+  background: #B7CFB7;
+}
+
+.slick-track .slick-slide:nth-child(4n) .review-card {
+  background: #FFDBCB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slick-track .slick-slide:nth-child(4n+1) .review-card__star {
+  color: #DBF923;
+}
+
+.slick-track .slick-slide:nth-child(4n+2) .review-card__star {
+  color: #FF5722;
+}
+.slick-track .slick-slide:nth-child(4n+3) .review-card__star {
+  color: #4285F4;
+}
+
+.slick-track .slick-slide:nth-child(4n) .review-card__star {
+  color: #6dcb55;
+}
+
+
+/* .slick-track {
+  display: flex;
+  align-items: stretch;
+
+  .slick-slide {
+      height: auto;
+      display: flex;
+
+      > div {
+          display: flex;
+      }
+  }
+} */

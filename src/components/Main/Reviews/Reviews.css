@@ -1,0 +1,12 @@
+.reviews {
+  position: relative;
+}
+
+.reviews__swiper {
+  margin-top: 60px;
+}
+
+.reviews__swiper > div {
+  position: static; /* для позиціонування кнопок свайпера */
+}
+

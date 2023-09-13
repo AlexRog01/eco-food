@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+  .review-card {
+    padding: 15px;
+  }
+
+  .review-card__person-info {
+    flex-wrap: wrap;
+  }
+}

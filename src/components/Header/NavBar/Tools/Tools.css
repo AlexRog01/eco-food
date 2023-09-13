@@ -1,0 +1,61 @@
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: black;
+}
+
+.tools__lang-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: var(--animation-time);
+}
+
+.tools__lang-field:hover {
+  cursor: pointer;
+  transform: var(--common-scale-size);
+}
+
+.tools__globe {
+  font-size: var(--icon-font-size);
+}
+
+.tools__chevronRight {
+  font-size: calc(var(--icon-font-size) - 7px);
+}
+
+.tools__languages {
+  position: relative;
+  min-width: 90px;
+}
+
+.tools__dropdown {
+  position: absolute;
+  display: none;
+  padding-left: calc(var(--icon-font-size) + 8px);
+}
+
+.tools__dropdown > li {
+  transition: var(--animation-time);
+}
+
+.tools__dropdown > :not(:first-child){
+  padding-top: 5px;
+}
+
+.tools__dropdown > li:hover,
+.tools__bucket:hover{
+  cursor: pointer;
+  transform: var(--common-scale-size);
+}
+
+.tools__languages:hover .tools__dropdown{
+  display: block;
+}
+
+.tools__bucket {
+  font-size: calc(var(--icon-font-size) + 2px);
+  transition: var(--animation-time);
+}
+

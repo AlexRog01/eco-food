@@ -1,0 +1,11 @@
+.acquaintance__description {
+  margin-top: 53px;
+  color: var(--general-font-color);
+  line-height: 150%; /* 24px */
+  max-width: 256px;
+}
+
+
+.acquaintance__btn {
+  margin-top: 60px;
+}

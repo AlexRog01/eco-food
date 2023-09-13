@@ -1,0 +1,11 @@
+.novelties {
+  position: relative;
+}
+
+.novelties__swiper {
+  margin-top: 60px;
+}
+
+.novelties__swiper > div {
+  position: static; /* для позиціонування кнопок свайпера */
+}

@@ -1,0 +1,11 @@
+@media (max-width: 900px) {
+  .main__about-us, .main__bestsellers, .main__unique-product-offer, .main__novelties {
+    margin-top: var(--section-top-margin-on-phone);
+  }
+}
+
+@media (max-width: 480px) {
+  .main__food-preparation > .container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,105 @@
+/* @import 'normalize.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+:root {
+  --titles-mostly-font-family: 'Montserrat', sans-serif;
+  --titles-mostly-font-weight: 600;
+  --titles-mostly-font-color: #023527;
+  --general-font-color: rgba(0, 0, 0, 0.70);
+  --general-font-color-without-eff: rgba(0, 0, 0);
+  --icon-font-size: 1.37rem;
+  --animation-time: 0.5s;
+  --common-scale-size: scale(115%);
+  --section-top-margin-on-phone: 100px;
+  --section-top-margin-on-pc: 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(2,53,39);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgb(248,245,239);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 30px 0;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.title-h1 {
+  font-size: 6rem;
+  font-weight: var(--titles-mostly-font-weight);
+  font-family: var(--titles-mostly-font-family);
+  color: var(--titles-mostly-font-color);
+  line-height: 90%;
+}
+
+.title-h3 {
+  font-size: 3rem;
+  font-family: var(--titles-mostly-font-family);
+  font-weight: var(--titles-mostly-font-weight);
+  color: var(--titles-mostly-font-color);
+  line-height: 110%;
+}
+
+.title-h4 {
+  color: var(--titles-mostly-font-color);
+  font-family: var(--titles-mostly-font-family);
+  font-size: 1.5rem;
+  font-weight: var(--titles-mostly-font-weight);
+  line-height: 110%;
+}
+
+
+p {
+  margin: 0;
+}
+
+.resetButtonStyles {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

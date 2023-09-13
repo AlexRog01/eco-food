@@ -1,0 +1,23 @@
+.contacts__number-container {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+}
+
+.contacts__operator-icon-container {
+  width: 52px;
+  height: 37px;
+}
+
+.contacts__icon-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contacts__social-media {
+  margin-top: 24px;
+  font-size: 24px;
+  display: flex;
+  gap: 31px;
+}

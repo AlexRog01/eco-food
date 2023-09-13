@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__burger-menu {
+  font-size: var(--icon-font-size);
+  display: none;
+}
+
+.navbar-toggle {
+  font-size: var(--icon-font-size);
+  float: right;
+}

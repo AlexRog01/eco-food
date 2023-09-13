@@ -1,0 +1,9 @@
+.main__bestsellers,
+.main__unique-product-offer,
+.main__novelties,
+.main__advantages,
+.main__food-preparation,
+.main__reviews,
+.main__quality-certificates {
+  margin-top: var(--section-top-margin-on-pc);
+}

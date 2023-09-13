@@ -1,0 +1,19 @@
+.about-us {
+  display: flex;
+  gap: 134px;
+}
+
+.about-us__title {
+  flex-basis: 15.1%;
+  min-width: 258px;
+}
+
+.about-us__description {
+  flex-basis: 32.6%;
+  font-size: 1.25rem;
+  color: var(--general-font-color);
+}
+
+.about-us__btn {
+  margin-top: 60px;
+}

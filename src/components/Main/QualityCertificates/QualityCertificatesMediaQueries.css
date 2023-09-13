@@ -1,0 +1,28 @@
+@media (max-width: 1185px) {
+  .quality-certificates {
+    flex-direction: column;
+  }
+
+  .quality-certificates__images {
+    gap: initial;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 900px) {
+  .quality-certificates__images {
+    gap: 64px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quality-certificates__img-container {
+    width: 70%;
+    height: auto;
+  }
+
+  .quality-certificates__description-container {
+    flex-direction: column;
+    gap: 34px;
+  }
+}

@@ -1,4 +1,5 @@
-import './index.css';
+import './main.css';
+import './mainMediaQueries.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
