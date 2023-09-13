@@ -3,7 +3,7 @@
   height: 52px;
   color: var(--titles-mostly-font-color);
   background-color: transparent;
-  border: 1px solid #75AE8C;
+  border: 1px solid #75ae8c;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -13,12 +13,12 @@
 }
 
 .secondary-btn {
-  background: #75AE8C;
+  background: #75ae8c;
   padding: 0 24px;
   height: 52px;
   cursor: pointer;
   border: none;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.875rem;
@@ -26,6 +26,7 @@
   transition: var(--animation-time);
 }
 
-.primary-btn:hover, .secondary-btn:hover {
+.primary-btn:hover,
+.secondary-btn:hover {
   transform: scale(95%);
 }

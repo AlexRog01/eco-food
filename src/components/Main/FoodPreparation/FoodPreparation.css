@@ -1,5 +1,4 @@
 .food-preparation {
-
 }
 
 .food-preparation__video-container {
@@ -23,7 +22,8 @@
   height: 84px;
 }
 
-.food-preparation__control-btn-icon, .food-preparation__video {
+.food-preparation__control-btn-icon,
+.food-preparation__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -39,7 +39,8 @@
   flex-basis: 21%;
 }
 
-.food-preparation__desc1, .food-preparation__desc2 {
+.food-preparation__desc1,
+.food-preparation__desc2 {
   flex-basis: 32.5%;
   color: var(--general-font-color);
   font-size: 1.25rem;

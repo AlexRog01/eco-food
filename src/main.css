@@ -8,7 +8,7 @@ font-family: 'Open Sans', sans-serif; */
   --titles-mostly-font-family: 'Montserrat', sans-serif;
   --titles-mostly-font-weight: 600;
   --titles-mostly-font-color: #023527;
-  --general-font-color: rgba(0, 0, 0, 0.70);
+  --general-font-color: rgba(0, 0, 0, 0.7);
   --general-font-color-without-eff: rgba(0, 0, 0);
   --icon-font-size: 1.37rem;
   --animation-time: 0.5s;
@@ -23,10 +23,10 @@ font-family: 'Open Sans', sans-serif; */
 
 html {
   font-family: 'Open Sans', sans-serif;
-  color: rgb(2,53,39);
+  color: rgb(2, 53, 39);
   font-size: 16px;
   font-weight: 400;
-  background-color: rgb(248,245,239);
+  background-color: rgb(248, 245, 239);
   scroll-behavior: smooth;
 }
 
@@ -81,7 +81,6 @@ h4 {
   font-weight: var(--titles-mostly-font-weight);
   line-height: 110%;
 }
-
 
 p {
   margin: 0;

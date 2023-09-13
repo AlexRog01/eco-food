@@ -1,5 +1,8 @@
 @media (max-width: 900px) {
-  .main__about-us, .main__bestsellers, .main__unique-product-offer, .main__novelties {
+  .main__about-us,
+  .main__bestsellers,
+  .main__unique-product-offer,
+  .main__novelties {
     margin-top: var(--section-top-margin-on-phone);
   }
 }

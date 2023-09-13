@@ -20,7 +20,7 @@
 .advantages__img {
   object-fit: cover;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 .advantages__title {
@@ -34,6 +34,6 @@
 
 .advantages__description {
   margin-top: 16px;
-  color: var( --general-font-color);
+  color: var(--general-font-color);
   line-height: 150%;
 }

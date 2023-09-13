@@ -21,8 +21,9 @@
   flex-basis: 41.5%;
 }
 
-.specialization__img-container1::before, .specialization__img-container2::before {
-  content: "";
+.specialization__img-container1::before,
+.specialization__img-container2::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;

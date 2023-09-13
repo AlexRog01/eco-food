@@ -1,6 +1,6 @@
 .product-card {
   min-height: 591px;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   transition: var(--animation-time);
   cursor: pointer;
 
@@ -46,7 +46,7 @@
 }
 
 .product-card__description {
-  color: rgba(0, 0, 0, 0.50);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 0.875rem;
   line-height: 130%;
 }

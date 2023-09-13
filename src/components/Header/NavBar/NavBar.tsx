@@ -4,12 +4,12 @@ import './NavBarMediaQueries.css';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
+import React from 'react';
 
 import { Logo } from '../../ui/Logo/Logo';
 import { Navigation } from './Navigation/Navigation';
 import { SideNavigation } from './SideNavigation/SideNavigation';
 import { Tools } from './Tools/Tools';
-import React from 'react';
 
 export const NavBar = () => {
   const [sideNavValue, setSideNavValue] = useState(false);

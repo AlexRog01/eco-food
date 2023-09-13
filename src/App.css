@@ -2,6 +2,7 @@
   margin-top: 50px;
 }
 
-.app__main, .app__footer {
+.app__main,
+.app__footer {
   margin-top: var(--section-top-margin-on-pc);
 }

@@ -40,17 +40,17 @@
   transition: var(--animation-time);
 }
 
-.tools__dropdown > :not(:first-child){
+.tools__dropdown > :not(:first-child) {
   padding-top: 5px;
 }
 
 .tools__dropdown > li:hover,
-.tools__bucket:hover{
+.tools__bucket:hover {
   cursor: pointer;
   transform: var(--common-scale-size);
 }
 
-.tools__languages:hover .tools__dropdown{
+.tools__languages:hover .tools__dropdown {
   display: block;
 }
 
@@ -58,4 +58,3 @@
   font-size: calc(var(--icon-font-size) + 2px);
   transition: var(--animation-time);
 }
-
